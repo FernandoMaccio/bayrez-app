@@ -1,0 +1,15 @@
+*React*
+-Crear app
+  npx create-react-app bayrez-app
+-Entrar
+  cd bayrez-app
+-Ejecutar
+  npm start
+-Link
+  https://github.com/facebook/create-react-app
+
+*React router*
+-Instalar
+  npm install --save react-router-dom
+-Link
+  https://github.com/ReactTraining/react-router
