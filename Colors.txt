@@ -1,0 +1,5 @@
+BLACK_01: #000000,
+GREEN_01: #17d29b,
+VIOLET_01: #2c1f40,
+VIOLET_02: #4b3e62,
+WHITE_01: #ffffff,
