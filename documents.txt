@@ -1,3 +1,6 @@
+*Actualizar packages*
+  npm i && yarn
+  
 *React*
 -Crear app
   npx create-react-app bayrez-app
