@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import { Home, About } from './views';
+import { HomeScreen, About } from './views';
 
 const routes = [
   {
     path: "/",
-    component: Home,
+    component: HomeScreen,
     exact: true
   },
   {
