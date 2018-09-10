@@ -10,18 +10,21 @@ class Home extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      user: {
         name: 'Fernando',
         lastName: 'Maccio',
         ci: '51012563'
-      }
     }
     this.prueba()
   }
 
+  componentWillReceiveProps(nextProps){
+      if (nextProps && this.props.user !== nextProps.user) {
+           this.setState({ name: nextProps.user.name })
+      }
+}
+
   prueba = () => {
-    this.props.action.addCurrentUser(this.state.user)
-    console.log(this.props.user)
+    this.props.action.addCurrentUser('this.state.name', this.state.lastName, this.state.ci)
   }
 
   render() {
@@ -34,6 +37,7 @@ class Home extends Component {
         <p className="App-intro">
           <Link to='/about'>Home</Link>
         </p>
+        <p>{this.state.name}</p>
       </div>
     );
   }

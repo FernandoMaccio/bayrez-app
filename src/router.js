@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import { HomeScreen, About } from './views';
+import { HomeScreen, AboutScreen } from './views';
 
 const routes = [
   {
@@ -10,7 +10,7 @@ const routes = [
   },
   {
     path: "/about",
-    component: About,
+    component: AboutScreen,
   }
 ];
 

@@ -1,13 +1,11 @@
-const initialState = {
-  user: {},
-};
-
-export default(state = initialState, action) => {
+export default(state = {}, action) => {
   switch (action.type) {
     case 'ADD_CURRENT_USER':
       return {
         ...state,
-        user: action.userInfo
+        name: action.name,
+        lastName: action.lastName,
+        ci: action.ci
       };
     default:
       return state;

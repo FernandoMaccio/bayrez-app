@@ -1,6 +1,8 @@
-export const addCurrentUser = (userInfo) => {
+export const addCurrentUser = (name, lastName, ci) => {
   return {
     type: 'ADD_CURRENT_USER',
-    userInfo
+    name,
+    lastName,
+    ci
   };
 }
