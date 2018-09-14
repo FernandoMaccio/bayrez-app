@@ -1,0 +1,49 @@
+.App-container {
+  padding: 0px 100px 0px 100px;
+  display: flex;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.App-home .info-section-container {
+  width: 42%;
+}
+
+.info-image-container {
+  display: flex;
+}
+
+.info-container {
+  width: 100%;
+  padding: 2% 0 2% 0;
+}
+
+.info-title {
+  font-size: 25px;
+  line-height: 0;
+  color: #4b3e62;
+}
+
+.info-text {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #4b3e62;
+}
+
+.person-image {
+  width: 80px;
+  height: 80px;
+  margin: 2%;
+}
+/* Rotate */
+/* .App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+} */
+/* @keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} */
