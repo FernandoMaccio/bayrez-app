@@ -32,7 +32,6 @@ class Home extends Component {
     return (
       <div className="App-home">
         <Header></Header>
-
           <div className="App-container space-between">
             <div className="info-section-container">
               <div className="info-container">
@@ -49,7 +48,7 @@ class Home extends Component {
                 <p className="info-text">Nuestra idea es innovadora, se trata de un funcionamiento con un sistema de puertas seguras, alarma y cámaras las cuales garantizan protección a su hogar. Nosotros ofrecemos un innovador sistema de seguridad que asegura la protección del hogar. Este producto le va a permitir la apertura y cierre de cada una de las aberturas. Además de un sistema de alarmas el cual notificara tanto al usuario como a la empresa acerca de acciones ilícitas dentro del hogar. Además, se podrá tener conocimiento de los movimientos realizados dentro de su hogar con un sistema de sensores.</p>
               </div>
             </div>
-            <div className="info-section-container">
+            <div className="info-section-container column space-between">
               <div className="info-container">
                 <p className="info-title">Nosotros</p>
               </div>
