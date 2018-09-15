@@ -32,6 +32,9 @@ class Home extends Component {
     return (
       <div className="App-home">
         <Header></Header>
+        <div className="App-container">
+
+        </div>
         <div className="App-container space-between">
           <div className="info-section-container">
             <div className="info-container">
