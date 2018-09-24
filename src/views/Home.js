@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as userActions from '../actions/user';
-import { Header, DivSeparatorBar } from '../components';
+import { Header, DivSeparatorBar, Input } from '../components';
 import Person from '../images/person.png';
 import Application from '../images/application.png';
 import Door from '../images/door.png';
@@ -130,6 +130,7 @@ class Home extends Component {
         <DivSeparatorBar />
         <div className="App-container">
           <p className="info-title">Contacto</p>
+          <Input />
         </div>
       </div>
     );

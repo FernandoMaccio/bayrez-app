@@ -3,9 +3,16 @@ import './styles.css';
 
 class Input extends Component {
   render() {
+    const {
+      type = "text",
+      name = null,
+      value = null,
+      placeholder = null,
+    } = this.props;
+
     return (
       <div className="App-Input">
-        <input></input>
+        <input name={name} type={type} value={value} placeholder={placeholder} />
       </div>
     );
   }
