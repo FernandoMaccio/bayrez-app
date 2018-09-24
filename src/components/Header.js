@@ -12,24 +12,24 @@ class Header extends Component {
 
   render() {
     return (
-        <header className="App-header">
-          <div className="logo-title-container">
-            <span className="logo-title">Bayrez</span>
-          </div>
-          <div className="menu-container">
-            {this.state.isLogged
-            ? (<div className="menu-section">
-                <span className="menu-item">this.state.name</span>
-                <span className="menu-item">|</span>
-                <span className="menu-item">Cerrar sesion</span>
-              </div>)
-            : (<div className="menu-section">
-                <span className="menu-item">Iniciar sesion</span>
-                <span className="menu-item">|</span>
-                <span className="menu-item">Registrarse</span>
-              </div>)}
-          </div>
-        </header>
+      <header className="App-header">
+        <div className="logo-title-container">
+          <span className="logo-title">Bayrez</span>
+        </div>
+        <div className="menu-container">
+          {this.state.isLogged
+          ? (<div className="menu-section">
+              <span className="menu-item">this.state.name</span>
+              <span className="menu-item">|</span>
+              <span className="menu-item">Cerrar sesion</span>
+            </div>)
+          : (<div className="menu-section">
+              <span className="menu-item">Iniciar sesion</span>
+              <span className="menu-item">|</span>
+              <span className="menu-item">Registrarse</span>
+            </div>)}
+        </div>
+      </header>
     );
   }
 }
