@@ -13,12 +13,22 @@
   flex-direction: column;
 }
 
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .full-width {
   width: 100% !important;
 }
 
 .App-home .info-section-container {
   width: 42%;
+}
+
+.App-home .contact-form {
+  width: 70%;
 }
 
 .info-image-container {

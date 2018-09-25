@@ -6,13 +6,20 @@ class Input extends Component {
     const {
       type = "text",
       name = null,
-      value = null,
-      placeholder = null,
+      value = "",
+      placeholder = "",
+      label = "",
+      width = "half-width"
     } = this.props;
 
     return (
-      <div className="App-Input">
-        <input name={name} type={type} value={value} placeholder={placeholder} />
+      <div className={"App-Input " + width}>
+        {
+          label && <label>{label}</label>
+        }
+        {
+        type == "text-area" ? (<textarea className="input textarea"></textarea>) : (<input className="input" name={name} type={type} value={value} placeholder={placeholder} />)
+        }
       </div>
     );
   }
