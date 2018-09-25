@@ -1,13 +1,17 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import { HomeScreen } from './views';
+import { HomeScreen, Login } from './views';
 
 const routes = [
   {
     path: "/",
     component: HomeScreen,
     exact: true
-  }
+  },
+  {
+    path: "/login",
+    component: Login,
+  },
 ];
 
 const Router = () => (
