@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import { HomeScreen, Login } from './views';
+import { HomeScreen, Login, Register } from './views';
 
 const routes = [
   {
@@ -10,7 +10,11 @@ const routes = [
   },
   {
     path: "/login",
-    component: Login,
+    component: Login
+  },
+  {
+    path: "/register",
+    component: Register
   },
 ];
 
