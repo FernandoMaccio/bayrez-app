@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as userActions from '../actions/user';
-import { Header, DivSeparatorBar, Input, Footer } from '../components';
+import { Header, DivSeparatorBar, Input, Footer, Button } from '../components';
 import Person from '../images/person.png';
 import Application from '../images/application.png';
 import Door from '../images/door.png';
@@ -135,6 +135,7 @@ class Home extends Component {
             <Input label="Apellido" />
             <Input label="Correo electrónico" width="full-width" />
             <Input label="Mensaje" type="text-area" width="full-width" />
+            <Button text="Enviar" height="50" margin_left="0" />
           </form>
         </div>
         <Footer />

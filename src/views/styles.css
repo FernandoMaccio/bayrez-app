@@ -75,6 +75,11 @@
   border: 1px solid #ccc;
   border-radius: 8px;
 }
+
+.forgot-password-text {
+  color: #4b3e62;
+  font-size: 12px;
+}
 /* Rotate */
 /* .App-logo {
   animation: App-logo-spin infinite 20s linear;

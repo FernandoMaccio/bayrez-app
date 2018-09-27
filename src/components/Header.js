@@ -24,7 +24,7 @@ class Header extends Component {
               <span className="menu-item">Cerrar sesion</span>
             </div>)
           : (<div className="menu-section">
-              <span className="menu-item">Iniciar sesion</span>
+              <Link to="/login" className="menu-item">Iniciar sesion</Link>
               <span className="menu-item">|</span>
               <span className="menu-item">Registrarse</span>
             </div>)}
