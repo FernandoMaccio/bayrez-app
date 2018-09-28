@@ -26,7 +26,7 @@ class Header extends Component {
           : (<div className="menu-section">
               <Link to="/login" className="menu-item">Iniciar sesion</Link>
               <span className="menu-item">|</span>
-              <span className="menu-item">Registrarse</span>
+              <Link to="/register" className="menu-item">Registrarse</Link>
             </div>)}
         </div>
       </header>

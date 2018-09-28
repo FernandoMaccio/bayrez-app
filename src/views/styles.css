@@ -23,6 +23,14 @@
   width: 100% !important;
 }
 
+.half-width {
+  width: 50% !important;
+}
+
+.small-width {
+  width: 45% !important;
+}
+
 .App-home .info-section-container {
   width: 42%;
 }
@@ -75,6 +83,10 @@
   border: 1px solid #ccc;
   border-radius: 8px;
 }
+
+/* .Register-container {
+  min-width: 400px;
+} */
 
 .forgot-password-text {
   color: #4b3e62;

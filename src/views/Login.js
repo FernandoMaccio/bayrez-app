@@ -8,11 +8,12 @@ class Login extends Component {
     return (
       <div className="App-Login center">
         <form className="Login-container center column">
-          <p className="info-title login-title">Iniciar sesión</p>
+          <p className="info-title">Iniciar sesión</p>
           <Input label="Nombre de usuario" />
-          <Input label="contraseña" type="password" />
+          <Input label="Contraseña" type="password" />
           <Link to="/" className="forgot-password-text half-width">¿Olvidaste tu contraseña?</Link>
           <Button text="Ingresar" />
+          <Link to="/register" className="forgot-password-text">¿Aun no tienes cuenta?</Link>
         </form>
       </div>
     );
