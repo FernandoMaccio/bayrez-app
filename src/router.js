@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import { HomeScreen, Login, Register } from './views';
+import { HomeScreen, Login, Register, EditUser } from './views';
 
 const routes = [
   {
@@ -15,6 +15,10 @@ const routes = [
   {
     path: "/register",
     component: Register
+  },
+  {
+    path: "/editUser",
+    component: EditUser
   },
 ];
 

@@ -13,7 +13,7 @@ class Login extends Component {
           <Input label="Contraseña" type="password" />
           <Link to="/" className="forgot-password-text half-width">¿Olvidaste tu contraseña?</Link>
           <Button text="Ingresar" />
-          <Link to="/register" className="forgot-password-text">¿Aun no tienes cuenta?</Link>
+          <Link to="/register" className="forgot-password-text">¿Aún no tienes cuenta?</Link>
         </form>
       </div>
     );

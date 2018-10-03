@@ -6,7 +6,8 @@ class Header extends Component {
   constructor(props) {
     super(props)
     this.state = {
-        isLogged: false
+        isLogged: true,
+        name: "fernando"
     }
   }
 
@@ -14,12 +15,12 @@ class Header extends Component {
     return (
       <header className="App-header">
         <div className="logo-title-container">
-          <span className="logo-title">Bayrez</span>
+          <Link to="/" className="logo-title">Bayrez</Link>
         </div>
         <div className="menu-container">
           {this.state.isLogged
           ? (<div className="menu-section">
-              <span className="menu-item">this.state.name</span>
+              <Link to="/editUser" className="menu-item">{this.state.name}</Link>
               <span className="menu-item">|</span>
               <span className="menu-item">Cerrar sesion</span>
             </div>)
