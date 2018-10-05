@@ -35,7 +35,7 @@ class Home extends Component {
     return (
       <div className="App-home">
         <Header></Header>
-        <div className="App-container padding-top">
+        <div className="App-container">
           <div className="info-section-container full-width">
             <div className="info-container">
               <p className="info-title">Servicios</p>

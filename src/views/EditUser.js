@@ -8,7 +8,7 @@ class EditUser extends Component {
     return (
       <div className="App-Register">
         <Header />
-        <div className="App-container padding-top">
+        <div className="App-container">
           <form className="Register-container column center full-width">
             <p className="info-title">Editar Información</p>
             <Input label="Nombre completo" />

@@ -6,7 +6,7 @@ class Header extends Component {
   constructor(props) {
     super(props)
     this.state = {
-        isLogged: true,
+        isLogged: false,
         name: "fernando"
     }
   }
