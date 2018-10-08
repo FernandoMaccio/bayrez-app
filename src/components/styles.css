@@ -21,7 +21,7 @@ label {
   display: flex;
   align-items: center;
   height: 40px;
-  padding-left: 100px;
+  padding-left: 50px;
 }
 
 .App-header .logo-title {
@@ -107,4 +107,11 @@ label {
   height: 25px;
   color: #4b3e62;
   cursor: pointer;
+}
+.menu-item-web {
+    margin: 0px 15px;
+    font-size: 22px;
+}
+.menu-section-1 {
+    width: 50%;
 }

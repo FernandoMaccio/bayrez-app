@@ -17,6 +17,12 @@ class Header extends Component {
         <div className="logo-title-container">
           <Link to="/" className="logo-title">Bayrez</Link>
         </div>
+        <div className="menu-section-1">
+          <span className="menu-item-web">Inicio</span>
+          <span className="menu-item-web">Nosotros</span>
+          <span className="menu-item-web">Servicios</span>
+          <span className="menu-item-web">Contacto</span>
+        </div>
         <div className="menu-container">
           {this.state.isLogged
           ? (<div className="menu-section">
