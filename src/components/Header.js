@@ -18,10 +18,11 @@ class Header extends Component {
           <Link to="/" className="logo-title">Bayrez</Link>
         </div>
         <div className="menu-section-1">
-          <span className="menu-item-web">Inicio</span>
-          <span className="menu-item-web">Nosotros</span>
-          <span className="menu-item-web">Servicios</span>
-          <span className="menu-item-web">Contacto</span>
+          <Link to="/" className="menu-item-web">Inicio</Link>
+          <Link to="/nosotros" className="menu-item-web">Nosotros</Link>
+          <Link to="/servicios" className="menu-item-web">Servicios</Link>
+          <Link to="/Contacto" className="menu-item-web">Contacto</Link>
+          <Link to="/Aplicacion" className="menu-item-web">Aplicacion</Link>
         </div>
         <div className="menu-container">
           {this.state.isLogged

@@ -115,3 +115,16 @@ label {
 .menu-section-1 {
     width: 50%;
 }
+.logo-title-container{
+    width: 15%;
+}
+.menu-container{
+    width: 251px;
+}
+.footer-section{
+    padding: 2% 0px;
+    text-align: center;
+}
+.Footer-text{
+  color: #fff;
+}
