@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './styles.css';
 import { Link } from 'react-router-dom';
+//import icono1 from ''; 
 
 class Header extends Component {
   constructor(props) {

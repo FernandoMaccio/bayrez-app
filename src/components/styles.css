@@ -128,3 +128,17 @@ label {
 .Footer-text{
   color: #fff;
 }
+.Menu-apli{
+  max-width: 50px;
+}
+.menu-item-apli{
+  border-radius: 31px;
+  border: 2px solid #fff;
+  background: #2c1f40;
+}
+.menu-item-apli:hover {
+    border: 2px solid #17d29b;
+}
+.menu-item-web.menu-item-apli:focus {
+    outline: none;
+}
